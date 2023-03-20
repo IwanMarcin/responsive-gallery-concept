@@ -13,7 +13,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
-  display: block;
+  display: flex;
   margin: auto;
-  align-items: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    padding: 25px 100px;
+  }
 }
